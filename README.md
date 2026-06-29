@@ -33,3 +33,34 @@ The project emphasizes modular design, hardware verification, FPGA implementatio
 * FPGA-Oriented Design Methodology
 * Modular Testbenches for Verification
 * Synthesizable RTL Architecture
+
+## Processor Specifications
+
+| Parameter        | Specification  |
+| ---------------- | -------------- |
+| ISA              | RV32I          |
+| Processor Width  | 32-bit         |
+| HDL              | Verilog        |
+| Vector Width     | 128-bit        |
+| Vector Registers | 8              |
+| Vector Lanes     | 4 × 32-bit     |
+| Simulation Tool  | Xilinx Vivado  |
+| FPGA Target      | Xilinx Artix-7 |
+| Design Style     | Modular RTL    |
+
+## Repository Structure
+
+```text
+RVV-Inspired-RISCV-Vector-Processor/
+│
+├── src/               # RTL source files
+├── testbench/         # Verification environment
+├── simulation/        # Waveforms and simulation screenshots
+├── docs/              # Documentation and architecture
+├── images/            # README images and banner
+├── fpga/              # FPGA-related resources
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
