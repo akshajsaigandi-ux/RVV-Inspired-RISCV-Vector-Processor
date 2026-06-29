@@ -18,3 +18,18 @@ This project presents the design, implementation, simulation, and FPGA realizati
 The design combines a conventional scalar execution pipeline with dedicated vector execution hardware to accelerate data-parallel operations. The vector subsystem operates on **128-bit vector registers** divided into **four 32-bit lanes**, enabling simultaneous execution of arithmetic and logical operations.
 
 The project emphasizes modular design, hardware verification, FPGA implementation, and clear documentation, making it suitable for academic, research, and portfolio purposes.
+
+## Features
+
+* 32-bit RV32I RISC-V Processor
+* RVV-Inspired Vector Processing Extension
+* 128-bit Vector Register File (4 × 32-bit lanes)
+* Modular RTL Design in Verilog HDL
+* Scalar and Vector Arithmetic Support
+* Dedicated Vector ALU
+* Vector Control Unit
+* Parameterized Register Architecture
+* Behavioral Simulation using Xilinx Vivado
+* FPGA-Oriented Design Methodology
+* Modular Testbenches for Verification
+* Synthesizable RTL Architecture
